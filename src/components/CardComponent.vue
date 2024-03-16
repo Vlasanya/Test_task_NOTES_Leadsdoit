@@ -15,7 +15,7 @@ export default {
     formatDate(dateString) {
       if (!dateString) return '—'
       const date = new Date(dateString)
-      return date.toLocaleDateString('uk-UA', { day: 'numeric', month: 'long', year: 'numeric' })
+      return date.toLocaleDateString('en', { day: 'numeric', month: 'long', year: 'numeric' })
     },
     emitDeleteEvent() {
       this.$emit('deleteNote', this.id)

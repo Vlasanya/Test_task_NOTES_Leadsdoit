@@ -45,7 +45,7 @@ export default {
   data() {
     return {
       note: { ...this.initialNote },
-      categories: ['Робота', 'Родина', 'Хоббі']
+      categories: ['Work', 'Family', 'Hobby']
     }
   },
 

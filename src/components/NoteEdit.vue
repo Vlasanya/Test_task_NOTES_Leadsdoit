@@ -42,7 +42,7 @@ export default {
   data() {
     return {
       note: { title: '', content: '', category: '', id: null },
-      categories: ['Робота', 'Родина', 'Хоббі']
+      categories: ['Work', 'Family', 'Hobby']
     }
   },
   watch: {
